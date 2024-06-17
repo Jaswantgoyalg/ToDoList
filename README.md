@@ -21,7 +21,7 @@ The project live website link   https://jaswantgoyalg.github.io/ToDoList/
 - LocalStorage: After adding the tasks, the current look of the page is saved in the browser's LocalStorage.
 - Responsive design: User can synchronized between multiple devices.
 - Comments in the code: I have added simple and conceptual comments in every line of code in all files, to helping the understanding the logic for others.
-
+- Use down key to add a new task.
 
 ## Further More Possible Advanced improvements
 
