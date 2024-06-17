@@ -30,14 +30,10 @@ The project live website link   https://jaswantgoyalg.github.io/ToDoList/
 - Implement login-logout dynamically, for wide range of users.
 
 
-
-
-
-
-
 ## Screenshots
+![Screenshot (2377)](https://github.com/Jaswantgoyalg/ToDoList/assets/110375555/90dc8226-a385-4998-b9ec-c68e099b4df4)
+![Screenshot (2376)](https://github.com/Jaswantgoyalg/ToDoList/assets/110375555/4940a2c4-9cbf-45e0-be50-f2143440dca1)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
 
 ## 🔗 Links
