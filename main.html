@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Container for decorative design in background -->
+    <div class="square">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    
+    <!-- Main container starts from here-->
+    <div class="container">
+            <h2>To Do List <img src="images/icon.png"></h2>    <!-- Header with heading and image icon-->
+            
+            <!-- Container for the input field and add button-->
+            <div class="row">
+                <input class="todo-input" id="input-box" placeholder="Write Here...">     <!-- Text input field for writing tasks -->
+                <button class="add-button" onclick="addTask()">ADD</button>         <!-- Button to add task, Triggering addTask() Javascript function -->
+            </div> 
+
+            <!-- Container for task filter functionality -->
+            <div class="filters">
+                <div class="filter" data-filter="all">All Tasks</div> 
+                <div class="filter" data-filter="completed">Completed</div>
+                <div class="filter" data-filter="pending">Incomplete</div>
+                <div class="delete-all">Delete All</div>   <!-- Button to delete all tasks -->
+            </div>
+
+            <!-- Container for the taks list. -->
+            <div class="todos-container">
+                <ul id="list-container"></ul>   <!-- Unordered list to display tasks dynamically -->
+                    <!-- <li class="checked">Task 1</li>
+                    <li>Task 2</li>
+                    <li>Task 3</li> -->
+            </div>
+    </div>
+    
+    <!-- Link to external javascript file-->
+    <script src="script.js"></script>
+</body>
+</html>
